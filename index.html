@@ -9,7 +9,7 @@
             text-align: center; 
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            background-image: url('https://i.imgur.com/8kUtrAn.jpg'); /* Luffy background */
+            background-image: url('https://upload.wikimedia.org/wikipedia/en/6/6f/One_Piece_Logo.svg');
             background-size: cover;
             color: white;
         }
@@ -57,7 +57,7 @@
     <div class="board" id="board"></div>
     <p id="status">Your Turn (🐱)</p>
     <p class="luffy-warning">If you don't win, Luffy will be thrown off the pirate ship! 🏴‍☠️</p>
-    <img src="https://i.imgur.com/8kUtrAn.jpg" alt="Luffy Warning" width="200">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Luffy.png/200px-Luffy.png" alt="Luffy Warning" width="200">
     <script>
         const board = document.getElementById("board");
         const status = document.getElementById("status");
@@ -65,8 +65,8 @@
         let currentPlayer = "cat";
         let gameActive = true;
 
-        const catImg = '<img src="https://i.imgur.com/w5PQuoH.png" width="60" height="60" alt="Cat">';
-        const dogImg = '<img src="https://i.imgur.com/Y8PzZzY.png" width="60" height="60" alt="Dog">';
+        const catImg = '<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" width="60" height="60" alt="Cat">';
+        const dogImg = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" width="60" height="60" alt="Dog">';
 
         function createBoard() {
             board.innerHTML = "";
